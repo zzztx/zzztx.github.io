@@ -5,7 +5,7 @@ permalink: /about/
 image: 01.jpg
 ---
 
-Hi, my name is Zhuozhang Zou. 
+Hi, my name is Zhuozhang Zou. You can contact the me through : zzztx_email@163.com . Best Wishes !
 
 ***
 
