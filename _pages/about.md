@@ -2,27 +2,36 @@
 layout: page
 title: About
 permalink: /about/
-image: 01.jpg
+image: zzz.jpg
 ---
 
-Hi, my name is Zhuozhang Zou. You can contact the me through : zzztx_email@163.com . Best Wishes !
+Hi, my name is <strong>邹卓璋<strong>. 
+
+You can contact me through :<strong> zzztx_email@163.com<strong> .
+
+Best Wishes !
 
 ***
 
-### University of Chinese Academy of Sciences
-#### Shenyang Institute of Automation Chinese Academy of Sciences
-<small>2020 - 2023    master</small>
+### 中国科学院大学
+#### 中科院沈阳自动化研究所
+<strong>2020 - 2023	硕士	电子信息<strong>
+
+<strong>自然语言处理，问答系统，文本匹配<strong>
 
 ![]({{site.baseurl}}/images/ucas.jpg)
-*University of Chinese Academy of Sciences*
+*中科院沈阳自动化研究所*
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+* 阿里云天池大赛CCKS2021运营商知识图谱推理问答	技术创新奖
+* 中国科学院大学三等奖学金
 
-### North University of China
-<small>2016 - 2020    undergraduate</small>
+### 中北大学
+<strong>2016 - 2020	本科	自动化<strong>
 
 ![]({{site.baseurl}}/images/nuc.jpg)
-*North University of China*
+*中北大学*
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+* 美国大学生数学建模大赛	一等奖（Meritorious Winner）
+* 山西省电子设计大赛		二等奖
+* 山西省蓝桥杯大赛		三等奖
+* 综合测评二等奖学金、三等奖学金
