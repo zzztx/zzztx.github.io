@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: zzz.jpg
+image: zzztx.jpg
 ---
 
 Hi, my name is <strong>邹卓璋<strong>. 
@@ -15,23 +15,22 @@ Best Wishes !
 
 ### 中国科学院大学
 #### 中科院沈阳自动化研究所
-<strong>2020 - 2023	硕士	电子信息<strong>
+<strong>2020 - 2023	硕士	电子信息（自然语言处理，问答系统）<strong>
 
-<strong>自然语言处理，问答系统，文本匹配<strong>
+<strong>中国科学院大学</strong>（University of Chinese Academy of Sciences），位于北京市。是一所以科教融合为办学模式、研究生教育为办学主体的创新型大学，入选国家<strong>“世界一流学科建设高校”</strong>、“基础学科拔尖学生培养试验计划”，环太平洋大学联盟、京港大学联盟、中国高校行星科学联盟、中欧商校联盟成员，首批学位授权自主审核单位。
+
+<strong>中国科学院沈阳自动化研究所</strong>（Shenyang Institute of Automation Chinese Academy of Sciences ），位于辽宁省沈阳市。成立于1958年，主要研究方向是<strong>机器人、智能制造和光电信息技术。</strong>拥有国家级重点实验室：机器人学国家重点实验室；中科院重点实验室：光电信息处理重点实验室、中国科学院网络化控制系统重点实验室；辽宁省重点实验室：辽宁省数字化协同制造与管理重点实验室、辽宁省工业通信与控制系统重点实验室、辽宁省雷达系统研究与应用技术重点实验室、辽宁省工业物联网重点实验室。
 
 ![]({{site.baseurl}}/images/ucas.jpg)
-*中科院沈阳自动化研究所*
-
-* 阿里云天池大赛CCKS2021运营商知识图谱推理问答	技术创新奖
-* 中国科学院大学三等奖学金
+*University of Chinese Academy of Sciences*
 
 ### 中北大学
 <strong>2016 - 2020	本科	自动化<strong>
 
-![]({{site.baseurl}}/images/nuc.jpg)
-*中北大学*
+<strong>中北大学</strong>（North University of China），位于山西省太原市，是山西省人民政府与工业和信息化部、国家国防科技工业局共建高校，山西省重点建设大学，B8协同创新联盟，入选中西部高校基础能力建设工程、卓越工程师教育培养计划。被誉为<strong>人民兵工第一校<strong>
 
-* 美国大学生数学建模大赛	一等奖（Meritorious Winner）
-* 山西省电子设计大赛		二等奖
-* 山西省蓝桥杯大赛		三等奖
-* 综合测评二等奖学金、三等奖学金
+中北大学前身是1941年5月八路军总司令部<strong>彭德怀、左权、刘鼎</strong>在太行抗日根据地创办的中国共产党及八路军第一所兵工学校——太行工业学校，1958年更名为太原机械学院，1993年更名为华北工学院，2004年更名为中北大学。
+
+
+![]({{site.baseurl}}/images/nuc.jpg)
+*North University of China*

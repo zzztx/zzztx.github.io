@@ -1,0 +1,39 @@
+---
+layout: post
+title:  Kafka。
+date:   2022-01-01 00:00:00 +0300
+image:  important_01.jpg
+tags:   Go_Advanced
+---
+Kafka是由[Apache软件基金会](https://baike.baidu.com/item/Apache软件基金会)开发的一个开源流处理平台，由[Scala](https://baike.baidu.com/item/Scala/2462287)和[Java](https://baike.baidu.com/item/Java/85979)编写。Kafka是一种高吞吐量的[分布式](https://baike.baidu.com/item/分布式/19276232)发布订阅消息系统，它可以处理消费者在网站中的所有动作流数据。 这种动作（网页浏览，搜索和其他用户的行动）是在现代网络上的许多社会功能的一个关键因素。 这些数据通常是由于吞吐量的要求而通过处理日志和日志聚合来解决。 对于像[Hadoop](https://baike.baidu.com/item/Hadoop)一样的[日志](https://baike.baidu.com/item/日志/2769135)数据和离线分析系统，但又要求实时处理的限制，这是一个可行的解决方案。Kafka的目的是通过[Hadoop](https://baike.baidu.com/item/Hadoop)的并行加载机制来统一线上和离线的消息处理，也是为了通过[集群](https://baike.baidu.com/item/集群/5486962)来提供实时的消息。
+
+## 消息队列.
+
+![image-20220105094257284](C:\Users\zzztx\AppData\Roaming\Typora\typora-user-images\image-20220105094257284.png)
+
+A产生数据不直接给B，而是给消息队列。B接受消息有两种方式，点对点（拉取模式）和订阅模式（主动推送）。 点对点模式需要有一个线程不断地监控消息队列才能知道里面有没有消息，订阅模式需要控制传输速率可能浪费资源。
+
+##### 消息队列优点：
+
+1. 解耦：A和B不用直接相连，通过中间件相连。
+2. 冗余：消息队列可以备份数据。
+3. 扩展性：kafak有集群的概念
+4. 灵活&峰值处理能力：扩展性带来的优势。
+5. 可恢复性：冗余肯定可恢复。
+6. 顺序保证：队列先进先出，栈先进后出。
+7. 缓冲：均衡两边速度。
+8. 异步通信：A发数据的时候B挂掉了也无所谓。
+
+## Kafka：
+
+kafka是一种分布式消息队列，有集群概念。kafka对消息保存时根据topic进行分类。发送消息者成为Producer，消息接收者成为Consumer。Kafka集群的每个实例成为broker。
+
+![image-20220105100446573](C:\Users\zzztx\AppData\Roaming\Typora\typora-user-images\image-20220105100446573.png)
+
+
+
+![image-20220105100503856](C:\Users\zzztx\AppData\Roaming\Typora\typora-user-images\image-20220105100503856.png)
+
+生产和消费都是由leader来做的，follower是用来做备份的。分区是topic有分区，分区有leader和follower。
+
+同一个组的消费者不可以同时消费同时消费同一分区的数据。
