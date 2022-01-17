@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  树形数据结构。
-date:   2022-01-01 00:00:00 +0300
+date:   2022-01-14 00:00:00 +0300
 image:  algorithm_01_02.jpg
 tags:   Algorithm
 

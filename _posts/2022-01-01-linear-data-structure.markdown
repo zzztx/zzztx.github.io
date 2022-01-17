@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  线性数据结构。
-date:   2022-01-01 00:00:00 +0300
+title:  线性数据结构
+date:   2022-01-07 00:00:00 +0300
 image:  algorithm_01_02.jpg
 tags:   Algorithm
 ---
