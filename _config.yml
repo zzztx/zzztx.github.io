@@ -1,37 +1,24 @@
-#baseurl: "/zolan" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: Student
+baseurl: ""
 
-
-# Build settings
 markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll/tagging
+ins_logo: "./ucas.png"
 
-paginate: 5
-paginate_path: "/page/:num"
+tracking_id: #
 
-
-# Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
-include:
-  - _pages
-
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+footer: yes
+footer_text: "个人主页"
 
 sass:
-  sass_dir: _sass
-  style: compressed
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/"
+ - name: "Contact"
+   link: "contact"
+ - name: "Photos"
+   link: "photo"
+ - name: "Resume"
+   link: "resume.pdf"
