@@ -16,8 +16,8 @@ sass:
 nav:
  - name: "About"
    link: "/"
- - name: "Contact"
-   link: "contact"
+ - name: "School"
+   link: "school"
  - name: "Photos"
    link: "photo"
  - name: "Resume"
