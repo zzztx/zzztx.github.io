@@ -68,11 +68,13 @@ layout: default
 
 - #### 租房系统
 
-  基于Gin框架搭建web服务，实现租房系统的web界面。基于go-micro框架搭建分布式微服务，包括用户注册微服务、用户登录微服务、用户信息修改微服务、验证码获取微服务、发布房源微服务、获取房源信息微服务、创建房屋订单微服务等多个微服务。使用consul进行服务注册与服务发现，使用FastDFS进行图片的分布式存储，并使用nginx进行负载均衡。租房项目整体部署在docker上，并成功运行。
+  基于Gin框架搭建web服务，实现租房系统的web界面。基于go-micro框架搭建分布式微服务，包括用户注册微服务、用户登录微服务、用户信息修改微服务、验证码获取微服务、发布房源微服务、获取房源信息微服务、创建房屋订单微服务等多个微服务。使用consul进行服务注册与服务发现，使用FastDFS进行图片的分布式存储，并使用nginx进行负载均衡与静态资源访问。租房项目整体部署在docker上，并成功运行。
 
 ![]({{site.baseurl}}/images/photos/zf.png)
 
 ![]({{site.baseurl}}/images/photos/zf1.png)
+
+![]({{site.baseurl}}/images/photos/docker.png)
 
 - #### 电商系统
 
